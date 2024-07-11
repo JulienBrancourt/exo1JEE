@@ -8,13 +8,11 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "texteTransfer", value = "/textetransfer")
-public class ServletTransfer extends HttpServlet {
+@WebServlet(name = "servletexo2page2", value ="/servletexo2page2" )
+public class Servletexo2page2 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        getServletContext().getRequestDispatcher("/transfer.jsp").forward(req, resp);
-
+        req.getRequestDispatcher("page2exo2.jsp").forward(req, resp);
     }
 }

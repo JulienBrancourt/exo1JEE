@@ -4,14 +4,9 @@
 <head>
   <title>JSP - Hello World</title>
 </head>
-<body class="bg-secondary">
+<body>
 <h1><%= "Hello World!" %></h1>
 <br/>
-<div><a href="textebrut"> Texte brut</a></div>
-<div><a href="textehtml"> Texte HTML</a></div>
-<div><a href="textetransfer"> Texte transféré</a></div>
-
-
-
+<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>
