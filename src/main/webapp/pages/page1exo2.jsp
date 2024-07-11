@@ -12,8 +12,11 @@
 
     <title>la 1ère page créée pour mon exo 2 !</title>
 </head>
-<body class="bg-info">
+<body>
+<div class="container bg-info">
+
 <h1>Tata</h1>
+</div>
 
 </body>
 </html>

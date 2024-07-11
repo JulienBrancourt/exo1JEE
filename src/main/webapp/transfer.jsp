@@ -13,7 +13,10 @@
     <title>Requête transférée</title>
 </head>
 <body>
+<div class="container">
+
     <p class="border">la requête a été transférée.</p>
+</div>
 
 </body>
 </html>

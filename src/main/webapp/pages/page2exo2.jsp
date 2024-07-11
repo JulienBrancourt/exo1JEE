@@ -11,8 +11,10 @@
     <%@include file="/WEB-INF/monBootstrap.html"%>
     <title>la 2e page créée pour mon exo 2 !</title>
 </head>
-<body class="bg-success">
+<body>
+<div class="container bg-success">
 <h1>Toto</h1>
+</div>
 
 </body>
 </html>
